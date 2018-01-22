@@ -1,0 +1,22 @@
+﻿<Window x:Name="FormClients" x:Class="CashBack.fClients"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CashBack"
+        mc:Ignorable="d"
+        Title="fClients" Height="337" Width="824">
+    <Grid>
+        <ToolBar Height="90" Margin="0,20,0,0" VerticalAlignment="Top">
+            <Button Content="Добавить" Height="85" VerticalAlignment="Top" Width="75"/>
+            <Button Content="Загрузить" Height="85" VerticalAlignment="Top" Width="75"/>
+            <Button Content="Удалить" Height="85" VerticalAlignment="Top" Width="75"/>
+            <ComboBox HorizontalAlignment="Left" Margin="0,35,0,0" VerticalAlignment="Top" Width="120"/>
+            <Button Content="Закрепить" Height="85" VerticalAlignment="Top" Width="75"/>
+            <Button Content="Сохранить" Height="85" VerticalAlignment="Top" Width="75"/>
+            <Button Content="Досье" Height="85" VerticalAlignment="Top" Width="75"/>
+        </ToolBar>
+        <GroupBox Header="Реестр Клиентов" HorizontalAlignment="Left" Height="181" Margin="10,115,0,0" VerticalAlignment="Top" Width="796"/>
+
+    </Grid>
+</Window>

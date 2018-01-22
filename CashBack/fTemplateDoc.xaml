@@ -1,0 +1,23 @@
+﻿<Window x:Class="CashBack.fTemplateDoc"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CashBack"
+        mc:Ignorable="d"
+        Title="fTemplateDoc" Height="400" Width="600">
+    <Grid>
+        <GroupBox Header="Форма документа" HorizontalAlignment="Left" Height="349" Margin="140,10,0,0" VerticalAlignment="Top" Width="442">
+            <DocumentViewer HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        </GroupBox>
+        <ToolBarPanel HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="125">
+            <Button Content="Добавить" HorizontalAlignment="Left" Width="115"/>
+            <Button Content="Редактировать" HorizontalAlignment="Left" Width="115"/>
+            <Button Content="Удалить" HorizontalAlignment="Left" Width="115"/>
+        </ToolBarPanel>
+        <GroupBox Header="Список Шаблонов" HorizontalAlignment="Left" Height="284" Margin="10,75,0,0" VerticalAlignment="Top" Width="125">
+            <Grid HorizontalAlignment="Left" Height="264" Margin="0,10,-2,-12" VerticalAlignment="Top" Width="115"/>
+        </GroupBox>
+
+    </Grid>
+</Window>
